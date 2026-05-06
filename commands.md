@@ -2,7 +2,7 @@
 Creates a local copy of a remote repository from GitHub on your computer.
 # status: 
 Shows the current state of your working directory. It tells you which files are modified, staged for the next commit, or untracked.
-# Branching & Navigationcheckout
+# checkout
 # -b [name]: 
 Creates a new branch and immediately switches you to it.
 # branch -a: 
@@ -11,7 +11,7 @@ Lists all branches in the repository, including both local and remote-tracking b
  Deletes a local branch that has already been merged.
  # merge [branch]: 
  Combines the history and changes from a specified branch into your current branch.
- # Saving & Sharing Changesadd: 
+ # add: 
  Moves changes from your working directory to the staging area, preparing them to be committed.
  # commit -m "[msg]": 
  Records a snapshot of your staged changes to the local history with a descriptive message.
